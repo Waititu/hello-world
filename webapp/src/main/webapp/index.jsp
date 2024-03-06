@@ -4,6 +4,10 @@
     <p>Please fill in this form to create an account.</p>
     <hr>
 
+    <label for="email"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="email" required>
+    <br>
+
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
     <br>
@@ -13,10 +17,7 @@
     <br>
 
     <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-    <label for="psw-repeat"><b>Repeat Password Again</b></label>
-    <input type="password" placeholder="Repeat Password Again" name="psw-repeat" required>	
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>	
 
     <label>
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
