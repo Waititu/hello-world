@@ -15,6 +15,9 @@
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
+    <label for="psw-repeat"><b>Repeat Password Again</b></label>
+    <input type="password" placeholder="Repeat Password Again" name="psw-repeat" required>	
+
     <label>
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
     </label>
